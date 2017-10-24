@@ -21,7 +21,7 @@ function meeting_minutes_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'auto_entitylabel_pattern_node_meeting_minutes';
-  $strongarm->value = '[node:field-meeting-type]-[node:field-date]';
+  $strongarm->value = '[node:field-meeting-type]-[node:field-date:custom:Y-m-d]';
   $export['auto_entitylabel_pattern_node_meeting_minutes'] = $strongarm;
 
   $strongarm = new stdClass();

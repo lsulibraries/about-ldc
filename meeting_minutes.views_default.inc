@@ -22,7 +22,8 @@ function meeting_minutes_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Meeting minutes';
+  $handler->display->display_options['title'] = 'Louisiana Digital Consortium';
+  $handler->display->display_options['css_class'] = 'about-ldc';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -39,6 +40,31 @@ function meeting_minutes_views_default_views() {
     ),
   );
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Header: Global: Text area */
+  $handler->display->display_options['header']['area']['id'] = 'area';
+  $handler->display->display_options['header']['area']['table'] = 'views';
+  $handler->display->display_options['header']['area']['field'] = 'area';
+  $handler->display->display_options['header']['area']['content'] = '<h4>About the Contributing Institutions</h4>
+<br>
+
+There are currently 22 participating libraries, archives, museums, and historical centers participating in the LDL. Each institution contributes the digital items and the descriptive text for their collections. You will find that some of the collections, such as the GUMBO Project and the Teaching History in Louisiana Project, are collaborative projects that include materials from many institutions. 
+<br>
+<br>
+<a href="/#block-block-11">...go to institutions</a> 
+<br>
+<br>
+<h4>About the Louisiana Digital Consortium</h4>
+<br>
+<h5>Executive Board</h5>
+<br>
+Chair:  Diane Brown, State Library (<a href="mailto:dbrown@crt.la.gov">dbrown@crt.la.gov</a>)<br>
+Vice-Chair: Deborah Poole, Loyola<br>
+Immediate Past Chair: Lora Amsberryaugier, UNO<br>
+Treasurer: Debbie Johnson-Houston, McNeese<br>
+Secretary: Jeff Rubin, Tulane<br>
+At Large: Gina Costello, LSU<br>
+At Large: Melissa Smith, Louisiana State Museum';
+  $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   /* Field: Content: PDF */
   $handler->display->display_options['fields']['field_pdf']['id'] = 'field_pdf';
   $handler->display->display_options['fields']['field_pdf']['table'] = 'field_data_field_pdf';
@@ -96,7 +122,7 @@ function meeting_minutes_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'meeting-minutes';
+  $handler->display->display_options['path'] = 'about-ldc';
   $export['meeting_minutes'] = $view;
 
   return $export;
