@@ -63,7 +63,12 @@ Immediate Past Chair: Lora Amsberryaugier, UNO<br>
 Treasurer: Debbie Johnson-Houston, McNeese<br>
 Secretary: Jeff Rubin, Tulane<br>
 At Large: Gina Costello, LSU<br>
-At Large: Melissa Smith, Louisiana State Museum';
+At Large: Melissa Smith, Louisiana State Museum
+<br/>
+<br/>
+<h3><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws</a></h3>
+<br/>
+<h3><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank">LDC Membership Form</a></h3>';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   /* Field: Content: PDF */
   $handler->display->display_options['fields']['field_pdf']['id'] = 'field_pdf';
