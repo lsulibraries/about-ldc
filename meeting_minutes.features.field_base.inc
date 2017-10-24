@@ -57,7 +57,7 @@ function meeting_minutes_field_default_field_bases() {
       'allowed_values' => array(
         'LDC Board Meeting' => 'LDC Board Meetings',
         'LDC Membership Meeting' => 'LDC Membership Meetings',
-        'LDL Steering Committee' => 'LDL Steering Committees',
+        'LDL Steering Committee' => 'LDL Advisory Committee Meetings',
       ),
       'allowed_values_function' => '',
     ),
