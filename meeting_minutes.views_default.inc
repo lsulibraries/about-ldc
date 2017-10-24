@@ -50,8 +50,6 @@ function meeting_minutes_views_default_views() {
 There are currently 22 participating libraries, archives, museums, and historical centers participating in the LDL. Each institution contributes the digital items and the descriptive text for their collections. You will find that some of the collections, such as the GUMBO Project and the Teaching History in Louisiana Project, are collaborative projects that include materials from many institutions. 
 <br>
 <br>
-<a href="/#block-block-11">...go to institutions</a> 
-<br>
 <br>
 <h4>About the Louisiana Digital Consortium</h4>
 <br>
