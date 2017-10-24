@@ -47,29 +47,21 @@ function meeting_minutes_views_default_views() {
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = TRUE;
   $handler->display->display_options['header']['area']['content'] = '<h4>About the Contributing Institutions</h4>
-<br>
-
-There are currently 22 participating libraries, archives, museums, and historical centers participating in the LDL. Each institution contributes the digital items and the descriptive text for their collections. You will find that some of the collections, such as the GUMBO Project and the Teaching History in Louisiana Project, are collaborative projects that include materials from many institutions. 
-<br>
-<br>
-<br>
+<p>There are currently 22 participating libraries, archives, museums, and historical centers participating in the LDL. Each institution contributes the digital items and the descriptive text for their collections. You will find that some of the collections, such as the GUMBO Project and the Teaching History in Louisiana Project, are collaborative projects that include materials from many institutions.</p>
 <h4>About the Louisiana Digital Consortium</h4>
-<br>
 <h5>Executive Board</h5>
-<br>
-Chair:  Diane Brown, State Library (<a href="mailto:dbrown@crt.la.gov">dbrown@crt.la.gov</a>)<br>
-Vice-Chair: Deborah Poole, Loyola<br>
-Immediate Past Chair: Lora Amsberryaugier, UNO<br>
-Treasurer: Debbie Johnson-Houston, McNeese<br>
-Secretary: Jeff Rubin, Tulane<br>
-At Large: Gina Costello, LSU<br>
-At Large: Melissa Smith, Louisiana State Museum
-<br/>
-<br/>
-<h3><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws</a></h3>
-<br/>
-<h3><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank">LDC Membership Form</a></h3>';
-  $handler->display->display_options['header']['area']['format'] = 'filtered_html';
+<ul>
+<li>Chair:  Diane Brown, State Library (<a href="mailto:dbrown@crt.la.gov">dbrown@crt.la.gov</a>)</li>
+<li>Vice-Chair: Deborah Poole, Loyola</li>
+<li>Immediate Past Chair: Lora Amsberryaugier, UNO</li>
+<li>Treasurer: Debbie Johnson-Houston, McNeese</li>
+<li>Secretary: Jeff Rubin, Tulane</li>
+<li>At Large: Gina Costello, LSU</li>
+<li>At Large: Melissa Smith, Louisiana State Museum</li>
+</ul>
+<h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws</a></h5>
+<h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank">LDC Membership Form</a></h5>';
+  $handler->display->display_options['header']['area']['format'] = 'full_html';
   /* No results behavior: Global: Text area */
   $handler->display->display_options['empty']['area']['id'] = 'area';
   $handler->display->display_options['empty']['area']['table'] = 'views';
