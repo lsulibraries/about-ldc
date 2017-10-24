@@ -123,6 +123,10 @@ At Large: Melissa Smith, Louisiana State Museum';
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
   $handler->display->display_options['path'] = 'about-ldc';
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block_1');
+  $handler->display->display_options['block_description'] = 'meeting-minutes';
   $export['meeting_minutes'] = $view;
 
   return $export;
