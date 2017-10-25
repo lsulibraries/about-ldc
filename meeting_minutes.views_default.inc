@@ -47,9 +47,11 @@ function meeting_minutes_views_default_views() {
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = TRUE;
   $handler->display->display_options['header']['area']['content'] = '<h4>About the Contributing Institutions</h4>
-<p>There are currently 22 participating libraries, archives, museums, and historical centers participating in the LDL. Each institution contributes the digital items and the descriptive text for their collections. You will find that some of the collections, such as the GUMBO Project and the Teaching History in Louisiana Project, are collaborative projects that include materials from many institutions.</p>
+<p>There are over 17 libraries, archives, museums, and historical centers participating in the LDL, with more joining every year. Each institution contributes the digital items and the descriptive text for their collections. Some collections, such as the Teaching American History in Louisiana (TAHIL) Project, are collaborative projects that include materials from many institutions.</p>
 <h4>About the Louisiana Digital Consortium</h4>
+<p>The Louisiana Digital Consortium (LDC) is a partnership of participating Louisiana libraries, museums, archives and cultural heritage institutions. The purpose of the LDC is to be the entity under which a variety of digital initiatives and services and cooperative programs are developed and or sponsored. The LDC provides governance and leadership to ensure the effective operation, orderly growth and fiscal sustainability of the Louisiana Digital Library and other cooperative programs.</p>
 <h5>Executive Board</h5>
+<p>The LDC Executive Board works on behalf of the LDC. The Board is elected by members.</p>
 <ul>
 <li>Chair:  Diane Brown, State Library (<a href="mailto:dbrown@crt.la.gov">dbrown@crt.la.gov</a>)</li>
 <li>Vice-Chair: Deborah Poole, Loyola</li>
