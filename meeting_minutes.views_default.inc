@@ -71,7 +71,7 @@ function meeting_minutes_views_default_views() {
 	<li>Vermilionville Living Museum (<a href="http://louisianadigitallibrary.org/vville">VVILLE</a>)</li>
 </ul>
 
-<p>The LDL is built with&nbsp;<a href="https://islandora.ca/" rel="nofollow">Islandora</a>, an open source digital library system based on&nbsp;<a href="http://www.fedora-commons.org/" rel="nofollow">Fedora</a>,&nbsp;<a href="http://drupal.org/" rel="nofollow">Drupal</a>, and&nbsp;<a href="http://lucene.apache.org/solr/" rel="nofollow">Solr</a>.</p>
+<p>The LDL is built with&nbsp;<a href="https://islandora.ca/" rel="nofollow">Islandora</a>, an open source digital library system based on&nbsp;<a href="http://www.fedora-commons.org/" rel="nofollow">Fedora</a>,&nbsp;<a href="https://www.drupal.org/" rel="nofollow">Drupal</a>, and&nbsp;<a href="http://lucene.apache.org/solr/" rel="nofollow">Solr</a>.</p>
 
 <p>The LDL is governed by the Louisiana Digital Consortium.</p>
 
@@ -121,10 +121,7 @@ function meeting_minutes_views_default_views() {
 <li>William W. Conlin, Digital Projects Programmer, wconli1@lsu.edu</li>
 <li>Gina Costello, Associate Dean for Technology Initiatives, gcoste1@lsu.edu</li>
 <li>Gabe Harrell, Digitization Lab Manager, jharre7@lsu.edu</li>
-<li>Cara Key, Metadata Librarian, carakey@lsu.edu</li>
-<li>Jason Peak, Application Development/Computer Manager, jpeak5@lsu.edu</li>
 <li>Kyle Tanglao, User Interface Designer, ktanglao@lsu.edu</li>
-<li>Mike Waugh, Systems Librarian, mwaugh2@lsu.edu</li>
 <li>Scott Ziegler, Head of Digital Programs and Services, sziegler1@lsu.edu</li>
 </ul>
 <h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws</a></h5>
