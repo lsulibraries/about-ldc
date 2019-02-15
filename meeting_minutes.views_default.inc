@@ -139,8 +139,11 @@ function meeting_minutes_views_default_views() {
 <li>Mike Waugh, Systems Librarian</li>
 </ul>
 
-<h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws</a></h5>
-<h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank">LDC Membership Form</a></h5>';
+<h2>Membership and Bylaws</h2>
+  <p>Interested in becoming a member of the Louisiana Digital Consortium? <a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank"> View our membership application form (PDF)</a>.</p>
+  <p>View the full <a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws here (PDF)</a>.</p>
+
+<h2>Selected Meeting Notes</h2>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   /* No results behavior: Global: Text area */
   $handler->display->display_options['empty']['area']['id'] = 'area';
