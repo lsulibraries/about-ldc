@@ -113,6 +113,9 @@ function meeting_minutes_views_default_views() {
 <li>Member: James Hodges, UNO</li>
 </ul>
 
+<h3>LDL Team</h3>
+<p>The LDL Team consists of staff of LSU Libraries, primarily from the Technology Initiatives Team. As of the Spring 2019, this includes:</p>
+
 <h2>Development Team</h2>
 <ul>
   <li>Garrett Armstrong, Digital Projects Programmer, garmstrong@lsu.edu</li>
