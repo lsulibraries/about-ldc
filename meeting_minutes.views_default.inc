@@ -113,10 +113,10 @@ function meeting_minutes_views_default_views() {
 <li>Member: James Hodges, UNO</li>
 </ul>
 
-<h3>LDL Team</h3>
+<h2>LDL Team</h2>
 <p>The LDL Team consists of staff of LSU Libraries, primarily from the Technology Initiatives Team. As of the Spring 2019, this includes:</p>
 
-<h2>Development Team</h2>
+<h3>Development Team</h3>
 <ul>
   <li>Garrett Armstrong, Digital Projects Programmer, garmstrong@lsu.edu</li>
   <li>Dave Comeaux, Web Development Librarian, davidcomeaux@lsu.edu</li>
@@ -124,14 +124,14 @@ function meeting_minutes_views_default_views() {
   <li>Kyle Tanglao, User Interface Designer, ktanglao@lsu.edu</li>  
 </ul>
 
-<h2>Digitization and Metadata Team</h2>
+<h3>Digitization and Metadata Team</h3>
 <ul>
 <li>Gina Costello, Associate Dean for Technology Initiatives, gcoste1@lsu.edu</li>
 <li>Gabe Harrell, Digitization Lab Manager, jharre7@lsu.edu</li>
 <li>Scott Ziegler, Head of Digital Programs and Services, sziegler1@lsu.edu</li>
 </ul>
 
-<h2>Past Team Members</h2>
+<h3>Past Team Members</h3>
 <p>The following people were central to the development of the LDL as we know it. Though they have moved on to other projects, our appreciation remains: </p>
 <ul>
 <li>Cara Key, Metadata Librarian</li>
