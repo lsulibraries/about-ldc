@@ -113,17 +113,29 @@ function meeting_minutes_views_default_views() {
 <li>Member: James Hodges, UNO</li>
 </ul>
 
-<h2>LDL Development Team</h2>
-<p>The LDL Development Team consists of staff of LSU Libraries, primarily from the Technology Initiatives Team. As of the Spring 2018, this includes:</p>
+<h2>Development Team</h2>
 <ul>
-<li>Garrett Armstrong, Digital Projects Programmer, garmstrong@lsu.edu</li>
-<li>Dave Comeaux, Web Development Librarian, davidcomeaux@lsu.edu</li>
-<li>William W. Conlin, Digital Projects Programmer, wconli1@lsu.edu</li>
+  <li>Garrett Armstrong, Digital Projects Programmer, garmstrong@lsu.edu</li>
+  <li>Dave Comeaux, Web Development Librarian, davidcomeaux@lsu.edu</li>
+  <li>William W. Conlin, Digital Projects Programmer, wconli1@lsu.edu</li>
+  <li>Kyle Tanglao, User Interface Designer, ktanglao@lsu.edu</li>  
+</ul>
+
+<h2>Digitization and Metadata Team</h2>
+<ul>
 <li>Gina Costello, Associate Dean for Technology Initiatives, gcoste1@lsu.edu</li>
 <li>Gabe Harrell, Digitization Lab Manager, jharre7@lsu.edu</li>
-<li>Kyle Tanglao, User Interface Designer, ktanglao@lsu.edu</li>
 <li>Scott Ziegler, Head of Digital Programs and Services, sziegler1@lsu.edu</li>
 </ul>
+
+<h2>Past Team Members</h2>
+<p>The following people were central to the development of the LDL as we know it. Though they have moved on to other projects, our appreciation remains: </p>
+<ul>
+<li>Cara Key, Metadata Librarian</li>
+<li>Jason Peak, Application Development/Computer Manager</li>
+<li>Mike Waugh, Systems Librarian</li>
+</ul>
+
 <h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws</a></h5>
 <h5><a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank">LDC Membership Form</a></h5>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
