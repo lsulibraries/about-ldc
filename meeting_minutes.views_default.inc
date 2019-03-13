@@ -140,8 +140,8 @@ function meeting_minutes_views_default_views() {
 </ul>
 
 <h2>Membership and Bylaws</h2>
-  <p>Interested in becoming a member of the Louisiana Digital Consortium? <a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf" target="_blank"> View our membership application form (PDF)</a>.</p>
-  <p>View the full <a href="https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws here (PDF)</a>.</p>
+  <p>Interested in becoming a member of the Louisiana Digital Consortium? <a href="http://louisianadigitallibrary.org/sites/default/files/LDC_membership_form2016.pdf" target="_blank"> View our membership application form (PDF)</a>.</p>
+  <p>View the full <a href="http://louisianadigitallibrary.org/sites/default/files/LDC_Bylaws_rev20151112.pdf" target="_blank">LDC Bylaws here (PDF)</a>.</p>
 
 <h2>Selected Meeting Notes</h2>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
