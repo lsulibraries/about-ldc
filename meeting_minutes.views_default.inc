@@ -75,7 +75,6 @@ function meeting_minutes_views_default_views() {
 <li>Webster Parish Library</li>
 </ul><p>The LDL is built with&nbsp;<a href="https://islandora.ca/" rel="nofollow">Islandora</a>, an open source digital library system based on&nbsp;<a href="http://www.fedora-commons.org/" rel="nofollow">Fedora</a>,&nbsp;<a href="https://www.drupal.org/" rel="nofollow">Drupal</a>, and&nbsp;<a href="http://lucene.apache.org/solr/" rel="nofollow">Solr</a>.</p>
 <p>Information about the Louisiana Digital Consortium can be found here: <a href="http://louisianadigitalconsortium.org" target="_blank">http://louisianadigitalconsortium.org</a></p>
-<p>&nbsp;</p>
 </div>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   /* No results behavior: Global: Text area */
